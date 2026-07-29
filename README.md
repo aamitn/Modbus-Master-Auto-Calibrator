@@ -44,7 +44,7 @@ To build a standalone, optimized release executable with an embedded Windows ico
 2.  Run the release compiler in your terminal:
     
     
-    bash ```
+     ```bash
     cargo build --release
     
     ```
@@ -52,7 +52,7 @@ To build a standalone, optimized release executable with an embedded Windows ico
 3.  Your compiled binary will be available at:
     
     
-    bash ```
+    ```bash
     target\release\modbus_calibrator.exe
     
     ```

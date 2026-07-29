@@ -3,7 +3,7 @@
 
 A robust, cross-platform desktop application built in **Rust** using **`egui`/`eframe`** and **`tokio-modbus`**. Designed for industrial engineers and technicians to perform automated offset and gain calibration on metering devices and power electronics hardware via **Modbus TCP** or **Modbus RTU**.
 
-## 🚀 Key Features
+## Key Features
 
 -   **Dual Communication Protocols:** Full native support for **Modbus TCP** (with optional Unit/Device ID enforcement) and **Modbus RTU** over serial ports.
     
@@ -43,18 +43,16 @@ To build a standalone, optimized release executable with an embedded Windows ico
     
 2.  Run the release compiler in your terminal:
     
-    Bash
     
-    ```
+    bash ```
     cargo build --release
     
     ```
     
 3.  Your compiled binary will be available at:
     
-    Plaintext
     
-    ```
+    bash ```
     target\release\modbus_calibrator.exe
     
     ```
@@ -75,6 +73,3 @@ On its first launch, the application generates a default configuration file (`ca
 
 You can customize offset addresses, gain addresses, C-state write values, and live-value polling addresses at runtime via **File $\rightarrow$ Edit Register Map**.
 
-## 📄 License
-
-Built for industrial automation, power electronics, and embedded R&D workflows.
